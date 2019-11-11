@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/SpaceX/build/index.html/static/css/main.e3217357.chunk.css",
-    "main.js": "/SpaceX/build/index.html/static/js/main.37a9ed52.chunk.js",
-    "main.js.map": "/SpaceX/build/index.html/static/js/main.37a9ed52.chunk.js.map",
-    "runtime-main.js": "/SpaceX/build/index.html/static/js/runtime-main.3d31f9bc.js",
-    "runtime-main.js.map": "/SpaceX/build/index.html/static/js/runtime-main.3d31f9bc.js.map",
-    "static/js/2.f03bf837.chunk.js": "/SpaceX/build/index.html/static/js/2.f03bf837.chunk.js",
-    "static/js/2.f03bf837.chunk.js.map": "/SpaceX/build/index.html/static/js/2.f03bf837.chunk.js.map",
-    "index.html": "/SpaceX/build/index.html/index.html",
-    "precache-manifest.4ff9342833f8b5390c35745bc9d2babe.js": "/SpaceX/build/index.html/precache-manifest.4ff9342833f8b5390c35745bc9d2babe.js",
-    "service-worker.js": "/SpaceX/build/index.html/service-worker.js",
-    "static/css/main.e3217357.chunk.css.map": "/SpaceX/build/index.html/static/css/main.e3217357.chunk.css.map"
+    "main.css": "/SpaceX/static/css/main.e3217357.chunk.css",
+    "main.js": "/SpaceX/static/js/main.37a9ed52.chunk.js",
+    "main.js.map": "/SpaceX/static/js/main.37a9ed52.chunk.js.map",
+    "runtime-main.js": "/SpaceX/static/js/runtime-main.5aad626d.js",
+    "runtime-main.js.map": "/SpaceX/static/js/runtime-main.5aad626d.js.map",
+    "static/js/2.f03bf837.chunk.js": "/SpaceX/static/js/2.f03bf837.chunk.js",
+    "static/js/2.f03bf837.chunk.js.map": "/SpaceX/static/js/2.f03bf837.chunk.js.map",
+    "index.html": "/SpaceX/index.html",
+    "precache-manifest.876f6a06ec9b293af63f6e3030dab939.js": "/SpaceX/precache-manifest.876f6a06ec9b293af63f6e3030dab939.js",
+    "service-worker.js": "/SpaceX/service-worker.js",
+    "static/css/main.e3217357.chunk.css.map": "/SpaceX/static/css/main.e3217357.chunk.css.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.3d31f9bc.js",
+    "static/js/runtime-main.5aad626d.js",
     "static/js/2.f03bf837.chunk.js",
     "static/css/main.e3217357.chunk.css",
     "static/js/main.37a9ed52.chunk.js"
