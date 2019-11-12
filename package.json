@@ -1,8 +1,8 @@
 {  
   "name": "spacex",
+  "homepage": "",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "http://chetanbhanushalii.github.io/SpaceX",
+  "private": true,  
   "main": "App.js",
   "dependencies": {
     "axios": "^0.19.0",
