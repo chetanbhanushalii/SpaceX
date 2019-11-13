@@ -1,20 +1,22 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import {Route, Link, BrowserRouter as Router} from 'react-router-dom';
+import {Route, Link, BrowserRouter} from 'react-router-dom';
 import Launchpads from './launchpad';
 import Mission from './mission';
 
 // import LaunchDetails from './services'
 
 const  routing = (
-  <Router>
+
       <div>
-          <Route path="/" component={App} />
-          <Route path="/launchpads" component={Launchpads} />
-          <Route path="/mission" component={Mission} />
+      <BrowserRouter basename={window.location.pathname || ''}>
+            <Route path="/" component={App} />
+            <Route path="/launchpads" component={Launchpads} />
+            <Route path="/mission" component={Mission} />
+        </BrowserRouter>         
       </div>
-  </Router>
+
 )
 
 function App() {
