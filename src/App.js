@@ -10,7 +10,7 @@ import Mission from './mission';
 const  routing = (
   <Router>
       <div>
-          <Route exact path="/" component={App} />
+          <Route path="/" component={App} />
           <Route path="/launchpads" component={Launchpads} />
           <Route path="/mission" component={Mission} />
       </div>
