@@ -8,15 +8,13 @@ import Mission from './mission';
 // import LaunchDetails from './services'
 
 const  routing = (
-
+  <BrowserRouter>
       <div>
-      <BrowserRouter basename={window.location.pathname || ''}>
-            <Route path="/" component={App} />
-            <Route path="/launchpads" component={Launchpads} />
-            <Route path="/mission" component={Mission} />
-        </BrowserRouter>         
+          <Route exact path="/" component={App} />
+          <Route path="/launchpads" component={Launchpads} />
+          <Route path="/mission" component={Mission} />
       </div>
-
+  </BrowserRouter>
 )
 
 function App() {
