@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "27f96b7b678a9c4d2694a90c8e518d46",
+    "revision": "d6a24dc18a2be81e49b4b45579c3517b",
     "url": "/SpaceX/index.html"
   },
   {
-    "revision": "2154c5249ad0cc2896f8",
+    "revision": "5efc17fc285dd2bf149c",
     "url": "/SpaceX/static/css/main.e3217357.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SpaceX/static/js/2.625bc9d3.chunk.js"
   },
   {
-    "revision": "2154c5249ad0cc2896f8",
-    "url": "/SpaceX/static/js/main.755c8784.chunk.js"
+    "revision": "5efc17fc285dd2bf149c",
+    "url": "/SpaceX/static/js/main.759bdf2e.chunk.js"
   },
   {
     "revision": "342b524ba0d08be3e4c3",
