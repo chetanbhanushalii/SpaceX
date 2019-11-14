@@ -11,7 +11,7 @@ import * as serviceWorker from './serviceWorker';
 const  routing = (
     <BrowserRouter basename="https://chetanbhanushalii.github.io/SpaceX">
         <div>
-            <Route exact path="/" component={App} />
+            <Route path="/" component={App} />
             <Route path="/launchpads" component={Launchpads} />
             <Route path="/mission" component={Mission} />
             <Route path="/payload/:id" component={Payload} />
