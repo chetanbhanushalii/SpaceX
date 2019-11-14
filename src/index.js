@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import {Route , BrowserRouter as Router} from 'react-router-dom';
+import {Route , BrowserRouter} from 'react-router-dom';
 import App from './App';
 import Launchpads from './launchpad';
 import Mission from './mission';
@@ -9,14 +9,14 @@ import Payload from './payload';
 import * as serviceWorker from './serviceWorker';
 
 const  routing = (
-    <Router>
+    <BrowserRouter>
         <div>
             <Route exact path="/" component={App} />
             <Route path="/launchpads" component={Launchpads} />
             <Route path="/mission" component={Mission} />
             <Route path="/payload/:id" component={Payload} />
         </div>
-    </Router>
+    </BrowserRouter>
 )
 
 // ReactDOM.render(<App />, document.getElementById('root'));
