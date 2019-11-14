@@ -8,7 +8,7 @@ import Mission from './mission';
 // import LaunchDetails from './services'
 
 const  routing = (
-  <BrowserRouter basename="chetanbhanushalii.github.io/SpaceX/">
+  <BrowserRouter basename="chetanbhanushalii.github.io/SpaceX">
       <div>
           <Route path="/" component={App} />
           <Route path="/launchpads" component={Launchpads} />
