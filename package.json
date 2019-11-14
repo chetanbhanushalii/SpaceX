@@ -1,6 +1,6 @@
 {  
   "name": "spacex",
-  "homepage": "http://chetanbhanushalii.github.io/SpaceX/",
+  "homepage": "SpaceX/",
   "version": "0.1.0",
   "private": true,  
   "main": "App.js",
