@@ -9,7 +9,7 @@ import Payload from './payload';
 import * as serviceWorker from './serviceWorker';
 
 const  routing = (
-    <BrowserRouter>
+    <BrowserRouter basename="https://chetanbhanushalii.github.io/SpaceX">
         <div>
             <Route exact path="/" component={App} />
             <Route path="/launchpads" component={Launchpads} />
